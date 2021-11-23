@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>auth_window</class>
+ <widget class="QWidget" name="auth_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>261</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_name"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_password">
+      <property name="text">
+       <string>Name</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_pass"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_welcome">
+      <property name="text">
+       <string>User authentication</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_name">
+      <property name="text">
+       <string>Password</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pushButton_log">
+      <property name="text">
+       <string>Log In</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="pushButton_reg">
+      <property name="text">
+       <string>Registration</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit_name</tabstop>
+  <tabstop>lineEdit_pass</tabstop>
+  <tabstop>pushButton_log</tabstop>
+  <tabstop>pushButton_reg</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
